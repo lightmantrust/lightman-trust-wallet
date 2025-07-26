@@ -1,0 +1,14 @@
+# Initialize a new Git repository
+git init
+
+# Add all the files you've created
+git add .
+
+# Make your first commit
+git commit -m "feat: Initial commit of Light-man Trust Wallet foundational packages"
+
+# Link it to your GitHub repository
+git remote add origin https://github.com/lightmantrust/lightman-trust-wallet.git
+
+# Push the code to GitHub
+git push -u origin main
