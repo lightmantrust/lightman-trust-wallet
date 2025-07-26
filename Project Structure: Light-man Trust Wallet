@@ -1,0 +1,29 @@
+lightman-trust-wallet/
+├── packages/
+│   ├── contracts/
+│   │   ├── contracts/
+│   │   │   ├── SmartAccount.sol
+│   │   │   └── VerifyingPaymaster.sol
+│   │   ├── scripts/
+│   │   │   └── deploy.ts
+│   │   ├── hardhat.config.ts
+│   │   └── package.json
+│   ├── frontend/
+│   │   ├── components/
+│   │   │   └── Dashboard.tsx
+│   │   ├── pages/
+│   │   │   └── index.tsx
+│   │   ├── lib/
+│   │   │   └── socket.ts
+│   │   ├── package.json
+│   │   └── ... (other Next.js files)
+│   └── backend/
+│       ├── src/
+│       │   ├── websocket/
+│       │   │   └── websocket.gateway.ts
+│       │   ├── blockchain/
+│       │   │   └── blockchain.service.ts
+│       │   └── app.module.ts
+│       └── package.json
+├── .gitignore
+└── package.json
