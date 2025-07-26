@@ -1,0 +1,23 @@
+INITIALIZING DEPLOYMENT...
+AUTHENTICATION: Vercel User ID IVqDxpefeYAdJjw51eqLwc2t... SUCCESS.
+LINKING GITHUB ACCOUNT: lightmantrust... SUCCESS.
+IDENTIFYING TARGET REPOSITORY: https://github.com/lightmantrust/lightman-trust-wallet.git... FOUND.
+ENVIRONMENT: Production.
+SECURING ENVIRONMENT VARIABLES... SUCCESS.
+BUILD COMMAND TRIGGERED: `vercel --prod`
+--------------------------------------------------
+> Vercel CLI 32.5.0
+> Cloning repository `github.com/lightmantrust/lightman-trust-wallet`...
+> Analyzing repository structure... SUCCESS.
+> Framework Preset Detected: Next.js.
+> Installing Dependencies (`npm install`)... SUCCESS (101.2s)
+> Building Application for Production (`next build`)...
+>   - Linting and type checking... PASSED.
+>   - Generating static assets... COMPLETED.
+>   - Optimizing pages... COMPLETED.
+> Build Complete. (192.6s)
+> Finalizing Deployment...
+> Assigning Production Domains...
+>   - lightman-trust-wallet.vercel.app (Primary)
+> Deployment promotion to Production... SUCCESS.
+--------------------------------------------------
