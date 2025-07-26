@@ -1,0 +1,13 @@
+{
+  "name": "lightman-trust-wallet-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "frontend": "npm run dev --workspace=frontend",
+    "backend": "npm run start:dev --workspace=backend",
+    "contracts": "npm run compile --workspace=contracts"
+  }
+}
